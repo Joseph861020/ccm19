@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <style>
+
+
+        section{
+            padding: 40px;
+        }
+        .first-block {
+            height: 100%;
+            font-size: larger;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .message {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .warning {
+            font-size: medium;
+            color: red;
+
+        }
+
+        .second-block {
+           display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: self-end;
+        }
+        .second-block img {
+            width: 50px;
+
+        }
+
+        footer{
+            padding: 40px;
+        }
+        * {
+            font-family: Arial, sans-serif, Helvetiva;
+        }
+        body{
+            text-align: center;
+
+        }
+        p{
+            font-weight: bold;
+        }
+    </style>
+
+<title>СПЕЦСТРОЙМОНТАЖ</title>
+</head>
+
+
+
+<body>
+<br>
+    <header>
+        <div class="fixed-container">
+            <h1><a href='index.html'>ООО-СПЕЦСТРОЙМОНТАЖ</a></h1>
+
+
+                <p>Телефон: <a href="tel: +74956453060">+7 (495) 645-30-60</a> </p>
+                <p>Адрес: 123056, город Москва, ул Юлиуса Фучика, д. 6 стр. 2, этаж 2 помещ. 3</p>
+            </div>
+
+    </header>
+    <section class="first-block">
+        <div class="fixed-container">
+        <h2>О Компании</h2>
+
+        <p>Компания СПЕЦСТРОЙМОНТАЖ, ваш надежный партнер в сфере оптовых продаж строительных материалов! Мы предлагаем широкий ассортимент качественных материалов для строительства, наша цель - помочь вам успешно реализовать любой проект.</p>
+
+        <p>1. Высокое качество: Мы понимаем, что безупречное качество строительных материалов - залог прочности и надежности ваших конструкций. Поэтому, мы тщательно отбираем каждый товар, сотрудничая только с проверенными производителями. Мы гарантируем, что каждая поставка соответствует самым высоким стандартам качества.</p>
+        
+        <p>2. Широкий ассортимент: Наш каталог содержит все необходимые строительные материалы для вашего проекта. Будь то кирпич, цемент, арматура, керамическая плитка или гипсокартон - у нас вы найдете все, что нужно для вашего строительства. Мы предлагаем разнообразные варианты и размеры, чтобы удовлетворить все ваши потребности.</p>
+        
+        <p>3. Конкурентные цены: Мы понимаем, что стоимость материалов - важный фактор при выборе поставщика. Мы предлагаем конкурентные цены на все наши товары. Благодаря нашим долгосрочным партнерским отношениям с производителями, мы можем предложить вам оптимальные цены без потери качества.</p>
+        
+        <p>4. Оперативная доставка: Мы ценим ваше время и стремимся обеспечить максимальное удобство. Поэтому мы предоставляем оперативную доставку заказанных материалов прямо на вашу строительную площадку. Наша логистическая система работает эффективно, чтобы у вас всегда были нужные материалы в нужное время.</p>
+        <p>5. Профессиональная поддержка: Наша команда специалистов всегда готова помочь вам с выбором и консультацией. Мы предлагаем профессиональные рекомендации, основанные на нашем опыте и знаниях. Мы ценим ваш успех и стремимся быть вашим надежным партнером на каждом этапе строительства.</p>
+        
+        <p>Компания СПЕЦСТРОЙМОНТАЖ готова предложить вам надежные строительные материалы оптом по выгодным условиям. Будем рады стать вашим надежным партнером в строительных проектах и помочь воплотить ваши идеи в реальность!</p>
+      
+        </div>
+
+        <div>================================================================================================================================== </div>
+        
+        <div class="first-block">
+            <section class="first-block">
+                <p>Задайте вопрос</p>
+       <form class="message" method="post" action="./done.html">
+       
+           <div class="mb-3">
+               <label class="form-label">Фамилия и Имя: <span
+                   class="required">*</span></label>
+               <input type="text" name="name" class="message__input form-control" placeholder="Ф.И.О" required>
+           </div>
+            <div class="mb-3">
+               <label class="form-label">E-mail: <span
+                   class="required">*</span></label>
+               <input type="email" name="email" class="message__input form-control" placeholder="E-mail" required>
+           </div>
+              <div class="mb-3">
+               <label class="form-label">Тел.: <span
+                   class="required">*</span></label>
+               <input type="tel" name="tel" class="message__input form-control" placeholder="+7 (___) ___-__-__" required>
+           </div>
+              <div class="mb-3">
+               <label class="form-label">Тема: <span
+                   class="required">*</span></label>
+                  <textarea name="info" class="message__input form-control" required></textarea>
+           </div>
+           <div class="mb-3">
+               <input type="reset" class="btn btn-danger" value="Сбросить">
+               <input type="submit" class="btn btn-success"  value="Отправить сообщение" >
+           </div>
+       </form>
+       
+    </section>
+    <section class="second-block">
+        <div class="fixed-container">
+            <img src="./price.png" alt="">
+        <p><a href='price-list.html'> Заказать прайс-лист</a></p>
+        </div>
+        <div class="fixed-container">
+            <img src="./telephone-logo.png" alt="">
+            <p><a href='call-back.html'> Заказать обратный звонок</a></p>
+        </div>
+         <div class="fixed-container">
+            <img src="./pinloco.png" alt="">
+            <p><a href='find-us.html'> Как нас найти</a></p>
+        </div>
+        
+    </section>
+        
+</section>
+<footer>
+<div class="fixed-container">
+   <p>ООО-СПЕЦСТРОЙМОНТАЖ ОГРН 1197746695585 от 27 ноября 2019г.</p>
+   <p>designed and created by <a href="mailto:python.man@ro.ru">pythonman</a> </p>
+</div>
+</footer>
+
+</body>
+</html>

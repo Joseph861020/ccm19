@@ -1,4 +1,4 @@
-# [ooo-ssm19](http://ccm19.ru/)
+# [ooo-ccm19](http://ccm19.ru/)
 СПЕЦСТРОЙ site
 #### #Один все написал#
 all site been written in HTML just a small part in css
